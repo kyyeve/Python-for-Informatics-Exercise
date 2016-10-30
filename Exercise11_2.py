@@ -1,3 +1,4 @@
+#Start from Exercise 11, all codes are in Python 2 version
 # -*- coding: utf-8 -*-
 """
 Created on Sun Oct  9 17:27:54 2016
@@ -19,4 +20,4 @@ for line in fhand:
         count += 1
         total += float(x[0])
         
-print (total/float(count))
+print total/float(count)
